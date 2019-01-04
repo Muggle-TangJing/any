@@ -1,5 +1,5 @@
 import unittest
-from . import Count
+from count import Count
 # Create your tests here.
 class MyTest(unittest.TestCase) :
     def tearDown(self):
@@ -19,6 +19,10 @@ class MyTest(unittest.TestCase) :
     def test_add(self):
         self.Count = Count(2,4)
         self.assertEqual(self.Count.add(),5)
+
+    def test_sub(self):
+        self.Count = Count(6, 4)
+        self.assertEqual(self.Count.sub(), 2)
 
 
 if __name__ == '__main__':
