@@ -1,4 +1,3 @@
-from django.test import TestCase
 import unittest
 from .count import Count
 # Create your tests here.
