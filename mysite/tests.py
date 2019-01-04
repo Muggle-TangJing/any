@@ -1,5 +1,5 @@
 import unittest
-from .count import Count
+from . import Count
 # Create your tests here.
 class MyTest(unittest.TestCase) :
     def tearDown(self):
