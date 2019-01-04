@@ -18,7 +18,7 @@ class MyTest(unittest.TestCase) :
 
     def test_add(self):
         self.Count = Count(2,4)
-        self.assertEqual(self.Count.add(),5)
+        self.assertEqual(self.Count.add(),6)
 
     def test_sub(self):
         self.Count = Count(6, 4)
